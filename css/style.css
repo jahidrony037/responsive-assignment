@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.head{
+    background-color: #FFFBF0;
+    margin: 0 auto;
+    width: 1500px;
+    height: 715px;
+}
+li a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #3C3C3C, 100%;
+}
+.btn img{
+    width: 25px;
+}
+.img-container{
+    border: 0;
+    background-color: #F1F1F1;
+    width: 334px;
+    height: 327px; 
+    position: relative;
+    border-radius: 20px;  
+}
+.img-container img{
+    width: 200px;
+    margin-top: 10px;
+}
+.penguin-card{
+    border: 0;
+}
+.jacket{
+    color: rgb( 54,57,88,1);
+    font-style: bold;
+    text-align: left;
+    vertical-align: top;
+    font-size: 24px;
+}
+.penguin-card-footer{
+    background-color: white;
+    border: 0;
+}
+.price{
+    color: rgb(250,190,76,1);
+
+}
+.btn span{
+    color: white;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+padding-left: 5px;
+}
+.buy-now-btn{
+    background-color: #A4BC46;
+    width:170px;
+    height: 60px;
+    border-radius: 20px;
+    border: 0;
+}
+.btn-text{
+    padding-left: 5px;
+    color: white;
+}
+.cart-details{
+    background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+width: 489px;
+height: 135px;
+}
+.cart-details img{
+    width: 100px;
+    height: 90px;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+@media (max-width:992px){
+    .contact-zone, .penguin-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-img{
+        margin-top: 30px;
+    }
+    .img-container{
+        margin: 0 auto;
+    }
+    
+}
+
+ @media (max-width:668px){
+    .carousel-item.active{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-zone, .penguin-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-img{
+        margin-top: 30px;
+    }
+    .img-container{
+        margin: 0 auto;
+    }
+    
+
+} 
+
